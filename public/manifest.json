@@ -1,0 +1,63 @@
+{
+  "name": "Kumbh Yatra - Smart Mobility & Crowd Management",
+  "short_name": "Kumbh Yatra",
+  "description": "Smart mobility and crowd management system for Kumbh Yatra pilgrims",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#FF9933",
+  "background_color": "#FFFFFF",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["travel", "navigation", "lifestyle"],
+  "shortcuts": [
+    {
+      "name": "QR Pass",
+      "short_name": "Pass",
+      "description": "Generate QR pass",
+      "url": "/pass",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Map",
+      "short_name": "Map", 
+      "description": "Interactive map",
+      "url": "/map",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Emergency SOS",
+      "short_name": "SOS",
+      "description": "Emergency assistance",
+      "url": "/sos",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
