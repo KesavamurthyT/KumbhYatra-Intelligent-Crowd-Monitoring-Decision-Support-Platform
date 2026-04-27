@@ -59,9 +59,9 @@ graph TD
     end
 
     subgraph "Data & Backend Services"
-        Services["Microservices Backend<br/>Node.js, Go/Python"]:::ext
+        Services["Microservices Backend<br/>Node.js Core"]:::ext
         MapAPI["MapTiler Vector APIs"]:::ext
-        Telemetry["Live Telemetry / IoT"]:::ext
+        Telemetry["Real-time Event Stream"]:::ext
     end
 
     Pilgrim --> UI
@@ -112,8 +112,8 @@ Key architectural components include:
 
 ## 🔮 Future Work
 
-- **Microservices Backend Integration**: Implement a distributed, highly-scalable backend architecture (e.g., Node.js/Go with PostgreSQL/Redis) to handle peak concurrent user sessions seamlessly.
-- **IoT & Sensor Data**: Integrate live IoT crowd monitoring sensors and BLE (Bluetooth Low Energy) beacons for highly accurate, real-time tracking.
+- **Microservices Backend Integration**: Implement a distributed, highly-scalable backend architecture (e.g., Node.js with PostgreSQL/Redis) to handle peak concurrent user sessions seamlessly.
+- **Real-time Telemetry Service**: Integrate live crowd monitoring metrics and BLE (Bluetooth Low Energy) beacons for highly accurate tracking.
 - **AI/ML Forecasting**: Implement machine learning models to forecast high-density periods and preemptively alert administrators to potential bottlenecks.
 - **Multi-lingual Support**: Add comprehensive regional language accessibility for diverse pilgrim demographics.
 - **Mobile Application**: Roll out dedicated native Android and iOS applications for pilgrims and field workers.
