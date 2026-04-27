@@ -1,0 +1,36 @@
+[
+  {
+    "id": "item_3",
+    "type": "jewelry",
+    "description": "Gold necklace with pendant, traditional design",
+    "location": "VIP Lounge area",
+    "status": "claimed",
+    "submittedBy": "admin",
+    "timestamp": 1757385329835,
+    "photos": [
+      "https://example.com/gold-necklace.jpg"
+    ],
+    "contactInfo": "+91-9876543212",
+    "matchConfidence": null,
+    "createdAt": "2025-09-09T05:35:29.842Z",
+    "updatedAt": "2025-09-09T05:35:29.842Z",
+    "statusHistory": [
+      {
+        "status": "claimed",
+        "timestamp": "2025-09-09T05:35:29.842Z",
+        "updatedBy": "admin"
+      }
+    ],
+    "claimedBy": null,
+    "claimedAt": null,
+    "returnedAt": null,
+    "expiresAt": "2025-10-09T05:35:29.842Z",
+    "tags": [
+      "gold",
+      "necklace",
+      "pendant"
+    ],
+    "priority": 6,
+    "isExpired": false
+  }
+]

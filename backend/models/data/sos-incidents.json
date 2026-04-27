@@ -1,0 +1,386 @@
+[
+  {
+    "incidentId": "e6da58cf-0ec3-4b17-8f57-ec781c45149d",
+    "type": "other",
+    "severity": "critical",
+    "message": "Emergency SOS button activated - immediate assistance needed",
+    "location": {
+      "lat": 29.9457,
+      "lng": 78.1642,
+      "text": "Har Ki Pauri area (default location)"
+    },
+    "userId": "pilgrim-1756981746257",
+    "status": "reported",
+    "createdAt": "2025-09-06T05:35:41.968Z",
+    "updatedAt": "2025-09-06T05:35:41.968Z",
+    "statusHistory": [
+      {
+        "status": "reported",
+        "timestamp": "2025-09-06T05:35:41.968Z",
+        "updatedBy": "system"
+      }
+    ],
+    "assignedTo": null,
+    "priority": 4
+  },
+  {
+    "incidentId": "f42977c0-aea3-471d-82b1-ea16563c5aa4",
+    "type": "other",
+    "severity": "critical",
+    "message": "Emergency SOS button activated - immediate assistance needed",
+    "location": {
+      "lat": 12.971365,
+      "lng": 80.043249,
+      "text": "Current location (GPS)"
+    },
+    "userId": "admin-demo",
+    "status": "reported",
+    "createdAt": "2025-09-06T05:36:09.459Z",
+    "updatedAt": "2025-09-06T05:36:09.459Z",
+    "statusHistory": [
+      {
+        "status": "reported",
+        "timestamp": "2025-09-06T05:36:09.459Z",
+        "updatedBy": "system"
+      }
+    ],
+    "assignedTo": null,
+    "priority": 4
+  },
+  {
+    "incidentId": "5e704c07-2d52-405e-9176-711a172fee09",
+    "type": "medical",
+    "severity": "critical",
+    "message": "Medical Emergency - Health issues, injury, medical assistance needed",
+    "location": {
+      "lat": 12.971365,
+      "lng": 80.043249,
+      "text": "Current location (GPS)"
+    },
+    "userId": "admin-demo",
+    "status": "reported",
+    "createdAt": "2025-09-06T05:36:25.926Z",
+    "updatedAt": "2025-09-06T05:36:25.926Z",
+    "statusHistory": [
+      {
+        "status": "reported",
+        "timestamp": "2025-09-06T05:36:25.926Z",
+        "updatedBy": "system"
+      }
+    ],
+    "assignedTo": null,
+    "priority": 16
+  },
+  {
+    "incidentId": "536c2d7e-588d-430b-9ee2-e44092469024",
+    "type": "security",
+    "severity": "high",
+    "message": "Security Issue - Safety concerns, theft, or security assistance",
+    "location": {
+      "lat": 29.9457,
+      "lng": 78.1642,
+      "text": "Har Ki Pauri area (default location)"
+    },
+    "userId": "pilgrim-1756981746257",
+    "status": "reported",
+    "createdAt": "2025-09-06T05:37:54.930Z",
+    "updatedAt": "2025-09-06T05:37:54.930Z",
+    "statusHistory": [
+      {
+        "status": "reported",
+        "timestamp": "2025-09-06T05:37:54.930Z",
+        "updatedBy": "system"
+      }
+    ],
+    "assignedTo": null,
+    "priority": 9
+  },
+  {
+    "incidentId": "fe80a72d-e79a-4fe2-a31d-8a97c5c07cdd",
+    "type": "other",
+    "severity": "high",
+    "message": "General Emergency - Other urgent situations requiring immediate help",
+    "location": {
+      "lat": 29.9457,
+      "lng": 78.1642,
+      "text": "Har Ki Pauri area (default location)"
+    },
+    "userId": "pilgrim-1756981746257",
+    "status": "reported",
+    "createdAt": "2025-09-06T05:40:09.932Z",
+    "updatedAt": "2025-09-06T05:40:09.933Z",
+    "statusHistory": [
+      {
+        "status": "reported",
+        "timestamp": "2025-09-06T05:40:09.932Z",
+        "updatedBy": "system"
+      }
+    ],
+    "assignedTo": null,
+    "priority": 3
+  },
+  {
+    "incidentId": "aacf23f7-bda4-489f-a930-bba0f7650f8a",
+    "type": "other",
+    "severity": "high",
+    "message": "General Emergency - Other urgent situations requiring immediate help",
+    "location": {
+      "lat": 12.971365,
+      "lng": 80.043249,
+      "text": "Current location (GPS)"
+    },
+    "userId": "admin-demo",
+    "status": "reported",
+    "createdAt": "2025-09-06T05:45:14.353Z",
+    "updatedAt": "2025-09-06T05:45:14.353Z",
+    "statusHistory": [
+      {
+        "status": "reported",
+        "timestamp": "2025-09-06T05:45:14.353Z",
+        "updatedBy": "system"
+      }
+    ],
+    "assignedTo": null,
+    "priority": 3
+  },
+  {
+    "incidentId": "0d58f298-ef46-45d9-9bcc-0fd81a4dacbc",
+    "type": "medical",
+    "severity": "critical",
+    "message": "Medical Emergency - Health issues, injury, medical assistance needed",
+    "location": {
+      "lat": 12.971257002448617,
+      "lng": 80.0431217256485,
+      "text": "Current location (GPS)"
+    },
+    "userId": "admin-demo",
+    "status": "reported",
+    "createdAt": "2025-09-08T06:17:45.483Z",
+    "updatedAt": "2025-09-08T06:17:45.483Z",
+    "statusHistory": [
+      {
+        "status": "reported",
+        "timestamp": "2025-09-08T06:17:45.483Z",
+        "updatedBy": "system"
+      }
+    ],
+    "assignedTo": null,
+    "priority": 16
+  },
+  {
+    "incidentId": "ae8bea7b-3304-4e68-bf23-91254444e11e",
+    "type": "medical",
+    "severity": "critical",
+    "message": "Medical Emergency - Health issues, injury, medical assistance needed",
+    "location": {
+      "lat": 12.971257002448617,
+      "lng": 80.0431217256485,
+      "text": "Current location (GPS)"
+    },
+    "userId": "admin-demo",
+    "status": "reported",
+    "createdAt": "2025-09-08T06:17:50.594Z",
+    "updatedAt": "2025-09-08T06:17:50.594Z",
+    "statusHistory": [
+      {
+        "status": "reported",
+        "timestamp": "2025-09-08T06:17:50.594Z",
+        "updatedBy": "system"
+      }
+    ],
+    "assignedTo": null,
+    "priority": 16
+  },
+  {
+    "incidentId": "99308ec5-3da4-47e0-b1e0-ad46ff608139",
+    "type": "other",
+    "severity": "critical",
+    "message": "Emergency SOS button activated - immediate assistance needed",
+    "location": {
+      "lat": 12.971257002448617,
+      "lng": 80.0431217256485,
+      "text": "Current location (GPS)"
+    },
+    "userId": "admin-demo",
+    "status": "reported",
+    "createdAt": "2025-09-08T06:17:55.916Z",
+    "updatedAt": "2025-09-08T06:17:55.916Z",
+    "statusHistory": [
+      {
+        "status": "reported",
+        "timestamp": "2025-09-08T06:17:55.916Z",
+        "updatedBy": "system"
+      }
+    ],
+    "assignedTo": null,
+    "priority": 4
+  },
+  {
+    "incidentId": "9b545b37-3067-46ef-9c7e-40b2a65a9cf6",
+    "type": "medical",
+    "severity": "critical",
+    "message": "Medical Emergency - Health issues, injury, medical assistance needed",
+    "location": {
+      "lat": 12.971257002448617,
+      "lng": 80.0431217256485,
+      "text": "Current location (GPS)"
+    },
+    "userId": "admin-demo",
+    "status": "reported",
+    "createdAt": "2025-09-08T06:19:23.184Z",
+    "updatedAt": "2025-09-08T06:19:23.184Z",
+    "statusHistory": [
+      {
+        "status": "reported",
+        "timestamp": "2025-09-08T06:19:23.184Z",
+        "updatedBy": "system"
+      }
+    ],
+    "assignedTo": null,
+    "priority": 16
+  },
+  {
+    "incidentId": "d4dabd09-b6b2-425e-aa63-353c9e11baf4",
+    "type": "other",
+    "severity": "critical",
+    "message": "Emergency SOS button activated - immediate assistance needed",
+    "location": {
+      "lat": 12.971257002448617,
+      "lng": 80.0431217256485,
+      "text": "Current location (GPS)"
+    },
+    "userId": "admin-demo",
+    "status": "reported",
+    "createdAt": "2025-09-08T06:19:31.102Z",
+    "updatedAt": "2025-09-08T06:19:31.102Z",
+    "statusHistory": [
+      {
+        "status": "reported",
+        "timestamp": "2025-09-08T06:19:31.102Z",
+        "updatedBy": "system"
+      }
+    ],
+    "assignedTo": null,
+    "priority": 4
+  },
+  {
+    "incidentId": "ce5d6a26-9a63-479e-a4cc-33bcdc4f7bcf",
+    "type": "security",
+    "severity": "high",
+    "message": "सुरक्षा समस्या - Safety concerns, theft, or security assistance",
+    "location": {
+      "lat": 12.971459905391217,
+      "lng": 80.04278178434987,
+      "text": "Current location (GPS)"
+    },
+    "userId": "admin-demo",
+    "status": "reported",
+    "createdAt": "2025-09-08T10:49:11.116Z",
+    "updatedAt": "2025-09-08T10:49:11.117Z",
+    "statusHistory": [
+      {
+        "status": "reported",
+        "timestamp": "2025-09-08T10:49:11.116Z",
+        "updatedBy": "system"
+      }
+    ],
+    "assignedTo": null,
+    "priority": 9
+  },
+  {
+    "incidentId": "c15fda5d-395f-4ac6-b8a6-3dccdf147fea",
+    "type": "medical",
+    "severity": "critical",
+    "message": "वैद्यकीय आपत्काल - Health issues, injury, medical assistance needed",
+    "location": {
+      "lat": 12.971459905391217,
+      "lng": 80.04278178434987,
+      "text": "Current location (GPS)"
+    },
+    "userId": "admin-demo",
+    "status": "reported",
+    "createdAt": "2025-09-08T10:49:18.577Z",
+    "updatedAt": "2025-09-08T10:49:18.577Z",
+    "statusHistory": [
+      {
+        "status": "reported",
+        "timestamp": "2025-09-08T10:49:18.577Z",
+        "updatedBy": "system"
+      }
+    ],
+    "assignedTo": null,
+    "priority": 16
+  },
+  {
+    "incidentId": "405c94d4-2bc6-4c60-9273-4c086bd31af4",
+    "type": "medical",
+    "severity": "critical",
+    "message": "Medical Emergency - Health issues, injury, medical assistance needed",
+    "location": {
+      "lat": 12.971209921054903,
+      "lng": 80.04288268030943,
+      "text": "Current location (GPS)"
+    },
+    "userId": "admin-demo",
+    "status": "reported",
+    "createdAt": "2025-09-09T05:33:27.417Z",
+    "updatedAt": "2025-09-09T05:33:27.418Z",
+    "statusHistory": [
+      {
+        "status": "reported",
+        "timestamp": "2025-09-09T05:33:27.417Z",
+        "updatedBy": "system"
+      }
+    ],
+    "assignedTo": null,
+    "priority": 16
+  },
+  {
+    "incidentId": "715ca534-919f-4e40-b5f5-29851b01eee3",
+    "type": "lost_person",
+    "severity": "medium",
+    "message": "Lost Person/Item - Missing family member or getting lost",
+    "location": {
+      "lat": 12.971209921054903,
+      "lng": 80.04288268030943,
+      "text": "Current location (GPS)"
+    },
+    "userId": "admin-demo",
+    "status": "reported",
+    "createdAt": "2025-09-09T05:33:34.437Z",
+    "updatedAt": "2025-09-09T05:33:34.437Z",
+    "statusHistory": [
+      {
+        "status": "reported",
+        "timestamp": "2025-09-09T05:33:34.437Z",
+        "updatedBy": "system"
+      }
+    ],
+    "assignedTo": null,
+    "priority": 4
+  },
+  {
+    "incidentId": "bfd091d8-2dae-4630-b0b5-1ae3a81c55ef",
+    "type": "other",
+    "severity": "critical",
+    "message": "Emergency SOS button activated - immediate assistance needed",
+    "location": {
+      "lat": 13.042982288643778,
+      "lng": 80.19383694710267,
+      "text": "Current location (GPS)"
+    },
+    "userId": "admin-demo",
+    "status": "reported",
+    "createdAt": "2025-09-10T17:05:50.223Z",
+    "updatedAt": "2025-09-10T17:05:50.225Z",
+    "statusHistory": [
+      {
+        "status": "reported",
+        "timestamp": "2025-09-10T17:05:50.223Z",
+        "updatedBy": "system"
+      }
+    ],
+    "assignedTo": null,
+    "priority": 4
+  }
+]

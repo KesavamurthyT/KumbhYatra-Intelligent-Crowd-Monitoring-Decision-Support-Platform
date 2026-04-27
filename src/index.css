@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Kumbh Yatra Design System - Sacred colors and cultural heritage */
+
+@layer base {
+  :root {
+    /* Base theme - Light sacred tones */
+    --background: 0 0% 100%;
+    --foreground: 28 100% 7%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 28 100% 7%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 28 100% 7%;
+
+    /* Kumbh Sacred Colors */
+    --saffron: 30 100% 60%;        /* Sacred saffron #FF9933 */
+    --saffron-light: 30 100% 85%;  /* Light saffron tint */
+    --saffron-dark: 30 100% 45%;   /* Deep saffron */
+    
+    --forest: 136 85% 26%;         /* Forest green #138808 */
+    --forest-light: 136 85% 85%;   /* Light forest tint */
+    --forest-dark: 136 85% 20%;    /* Deep forest */
+    
+    --river: 203 100% 37%;         /* River blue #0077BE */
+    --river-light: 203 100% 85%;   /* Light river tint */
+    --river-dark: 203 100% 25%;    /* Deep river */
+    
+    --temple-gold: 51 100% 50%;    /* Temple gold #FFD700 */
+    --temple-gold-light: 51 100% 85%;
+    --temple-gold-dark: 51 100% 40%;
+    
+    --earth: 25 43% 31%;           /* Earth brown #8B4513 */
+    --earth-light: 25 43% 85%;
+    --earth-dark: 25 43% 20%;
+
+    /* Semantic tokens using sacred colors */
+    --primary: var(--saffron);
+    --primary-foreground: 0 0% 100%;
+    --primary-light: var(--saffron-light);
+    --primary-dark: var(--saffron-dark);
+
+    --secondary: var(--forest);
+    --secondary-foreground: 0 0% 100%;
+    --secondary-light: var(--forest-light);
+    --secondary-dark: var(--forest-dark);
+
+    --accent: var(--river);
+    --accent-foreground: 0 0% 100%;
+    --accent-light: var(--river-light);
+    --accent-dark: var(--river-dark);
+
+    --muted: 30 10% 96%;
+    --muted-foreground: 28 20% 45%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 30 20% 90%;
+    --input: 30 20% 94%;
+    --ring: var(--saffron);
+
+    /* Sacred gradients */
+    --gradient-saffron: linear-gradient(135deg, hsl(var(--saffron)), hsl(var(--temple-gold)));
+    --gradient-forest: linear-gradient(135deg, hsl(var(--forest)), hsl(var(--forest-light)));
+    --gradient-river: linear-gradient(135deg, hsl(var(--river)), hsl(var(--river-light)));
+    --gradient-sacred: linear-gradient(135deg, hsl(var(--saffron)), hsl(var(--forest)), hsl(var(--river)));
+    --gradient-earth: linear-gradient(180deg, hsl(var(--earth-light)), hsl(var(--earth)));
+
+    /* Sacred shadows */
+    --shadow-saffron: 0 4px 20px hsl(var(--saffron) / 0.3);
+    --shadow-forest: 0 4px 20px hsl(var(--forest) / 0.3);
+    --shadow-sacred: 0 8px 32px hsl(var(--saffron) / 0.2), 0 4px 16px hsl(var(--forest) / 0.1);
+
+    /* Animations */
+    --transition-sacred: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --bounce-gentle: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-inter;
+    font-feature-settings: "cv11", "ss01";
+    font-variant-ligatures: contextual;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-poppins font-semibold;
+    letter-spacing: -0.02em;
+  }
+
+  /* Sacred utility classes */
+  .gradient-saffron {
+    background: var(--gradient-saffron);
+  }
+
+  .gradient-forest {
+    background: var(--gradient-forest);
+  }
+
+  .gradient-river {
+    background: var(--gradient-river);
+  }
+
+  .gradient-sacred {
+    background: var(--gradient-sacred);
+  }
+
+  .gradient-earth {
+    background: var(--gradient-earth);
+  }
+
+  .shadow-saffron {
+    box-shadow: var(--shadow-saffron);
+  }
+
+  .shadow-forest {
+    box-shadow: var(--shadow-forest);
+  }
+
+  .shadow-sacred {
+    box-shadow: var(--shadow-sacred);
+  }
+
+  .transition-sacred {
+    transition: var(--transition-sacred);
+  }
+
+  /* Sacred animations */
+  @keyframes sacred-pulse {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.8;
+    }
+  }
+
+  @keyframes sacred-glow {
+    0%, 100% {
+      box-shadow: 0 0 20px hsl(var(--saffron) / 0.3);
+    }
+    50% {
+      box-shadow: 0 0 40px hsl(var(--saffron) / 0.6), 0 0 60px hsl(var(--temple-gold) / 0.4);
+    }
+  }
+
+  @keyframes gentle-float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  .animate-sacred-pulse {
+    animation: sacred-pulse 2s ease-in-out infinite;
+  }
+
+  .animate-sacred-glow {
+    animation: sacred-glow 3s ease-in-out infinite;
+  }
+
+  .animate-gentle-float {
+    animation: gentle-float 3s ease-in-out infinite;
+  }
+}
