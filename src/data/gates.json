@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Gate 1",
+    "lat": 23.176,
+    "lng": 75.785,
+    "currentLoad": 0,
+    "capacity": 100
+  },
+  {
+    "name": "Gate 2",
+    "lat": 23.182,
+    "lng": 75.779,
+    "currentLoad": 0,
+    "capacity": 120
+  },
+  {
+    "name": "Gate 3",
+    "lat": 23.190,
+    "lng": 75.770,
+    "currentLoad": 0,
+    "capacity": 80
+  },
+  {
+    "name": "Gate 4",
+    "lat": 23.174,
+    "lng": 75.792,
+    "currentLoad": 0,
+    "capacity": 90
+  },
+  {
+    "name": "Gate 5",
+    "lat": 23.180,
+    "lng": 75.788,
+    "currentLoad": 0,
+    "capacity": 70
+  },
+  {
+    "name": "Gate 6",
+    "lat": 23.186,
+    "lng": 75.781,
+    "currentLoad": 0,
+    "capacity": 110
+  }
+]
